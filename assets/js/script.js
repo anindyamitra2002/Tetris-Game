@@ -73,8 +73,8 @@ let score = document.getElementById('scoreBoard');
 let hiscore = document.getElementById('hiScoreBoard');
 let sc = 0
 var count = 0;
-const gamePlay = new Audio('assets/sounds/game-play.mp3')
-const gameOver = new Audio('assets/sounds/game-over.mp3')
+const gamePlay = new Audio('./sounds/game-play.mp3')
+const gameOver = new Audio('./sounds/game-over.mp3')
 let hsc = localStorage.getItem("hiscore");
 var myReq;
 
